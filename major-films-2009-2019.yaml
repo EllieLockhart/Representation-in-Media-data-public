@@ -27,3 +27,22 @@
   boxOfficeGrossUS: # we won't know all the values and that's okay!
   boxOfficeGrossInternational: 
   initialReleaseFormat: theatrical
+
+-girlWithDragonTattoo2009 # this film is originally titled in Swedish, and we include that in the text field, but we don't want to risk using special characters in the identifier field; you can probably include the Romanizaed Japanese title for a Japanese title, but where in doubt, use a title for the identifier that doesn't use any non-standard characters
+  titles: 
+    - Män som hatar kvinnor
+    - The Girl with the Dragon Tattoo 
+  releaseDate: 2009 # off hand, we might not know a full date. Include what you can - the year is what's most crucial
+  directors:
+    - Niels Arden Oplev
+  genres:
+    - thriller
+    - neo-noir
+    - crime
+  actors:
+    - Noomi Rapace # this is the only actor I recall off hand, so just include what you know
+  distributors: # don't know off-hand; if you know, add it!
+  studios: 
+  boxOfficeGrossUS:
+  boxOfficeGrossInternational:
+  initialReleaseFormat: theatrical # the film was not released in the US, but if it was initially in theaters (except maybe film festivals), default to theatrical
