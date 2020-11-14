@@ -1,0 +1,2 @@
+# Representation-in-Media-data-public
+ A project to work towards a better understanding of representation of diverse groups in media.  Contains data files designed to create an open-source representation of data related to marginalized groups (currently focused on LGBT+) and their depiction in mass media; it also functions as a repository of popular media, aiming at replacing closed/limited-source sources like the IMDb dataset.
