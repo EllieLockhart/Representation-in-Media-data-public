@@ -36,5 +36,28 @@ In an ideal world where we weren't dependent on git and on reviewing each other'
         titles: 
             - A Movie or Video Game or TV Show
             - Another Title for This Thing
-        release_date: 2008-07-21 # you can use comments at the end of lines or on their own line with the hashsymbol
+        release_date: 2008-07-21 # you can use comments at the end of lines or on their own line with the hash symbol
 }
+
+Each type of media has its own specific format; you should review the files and follow the example of the first item. If you aren't sure how to handle something, just add the item and note in a comment that it's ambiguous. 
+
+One policy: even if you have to leave it blank, please include all the fields we are currently collecting even if you don't know all of it. For instance, if you don't know the director or all of the actors, just put the field and leave it blank or include what you can; if it's incomplete and you know that, please do note that with a # comment. If your syntax is problematic, that's fine; as long as it generally resembles the structure, the project adminsitrator will clean it up so that it can be parsed.
+
+Some specific notes for contributors about each type of media:
+
+**General**
+- most fields are treated as lists, even if there is only one. Title is the one where this probably seems weirdest; however, there are media that have been *completely* renamed or who have original non-English titles
+  - If there's just one title, just put titles:, a carriage return, and an indented "- the correct title." 
+  - You don't need to worry about if the title was, say, released both with and without a colon; but if it was released under two totally different titles (for instance, *The Edge of Tomorrow*/*Live/Die/Repeat*), then include those titles on separate indented lines
+  - if the original title is not in English, include the non-English original first unless you don't know it. For instance, the 2009 Swedish movie released in English markets as *The Girl with the Dragon Tattoo* should be the second title for that movie, with the first one being *Män som hatar kvinnor*. 
+  - Also related to that: if there are multiple films that share a title, this is not a problem at all for the title since we treat that as a list (the version of *Dragon Tattoo* starring Daniel Craig was initially released in English and so the English title would be first anyway).
+  - However, every entry for a media item in YAML has to have a no-spaces identifier that has to be unique.
+    - We won't be including the 1969 John Wayne film *True Grit* in this data set, since it's from 1969 and we stop 30 years later than that. However, I would still suggest marking the 2010 remake by the Coens with the year in this identifier, just in case we do in the future decide to include older titles.
+    - We use camelCase for identifiers, so the unique identifier for the 2010 True Grit would be trueGrit2010.
+
+
+**Film**
+- We only track the original release date, so that's a single date field. The box office grosses are also single items, as is initial release format (only applies for movies).
+- initialReleaseFormat should be "theatrical," "streaming," or "home video". (I don't expect, given that we're looking for *major* titles, that we will be including many "home video" releases, especially since "streaming" essentially replaces home video for anything contemporary, such as Disney's 2020 *Mulan*.)
+- Again, it's not important at this stage to list all of the actors or to know the distributor, etc. - as with all of these categories, we really want to make sure we have all of the *names* and *release dates*.
+

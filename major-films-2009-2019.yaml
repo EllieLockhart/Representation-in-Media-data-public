@@ -4,7 +4,7 @@
 - riseOfSkywalker # use camelCase titles - this designator isn't super important and doesn't have to contain the full title, but it does need to be unique
   titles: 
     - Star Wars \:Episode IX - The Rise of Skywalker # note the colon in the title is proceeded by the backslash
-  release_date: 2020-12-20 # format dates according to the YAML standard: YYYY-MM-DD. Use the original release date if the film was rereleased
+  releaseDate: 2020-12-20 # format dates according to the YAML standard: YYYY-MM-DD. Use the original release date if the film was rereleased
   directors: 
     - J.J. Abrams
   genres: 
@@ -24,6 +24,6 @@
     - Disney
   - studios:
     - Bad Robot
-  box_office_gross_us: # we won't know all the values and that's okay!
-  box_office_gross_international: 
-  initial_release_format: theatrical
+  boxOfficeGrossUS: # we won't know all the values and that's okay!
+  boxOfficeGrossInternational: 
+  initialReleaseFormat: theatrical
