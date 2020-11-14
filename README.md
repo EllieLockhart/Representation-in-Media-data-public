@@ -32,5 +32,9 @@
 In an ideal world where we weren't dependent on git and on reviewing each other's commits, we would directly input all of this data into a graph/document database, or at least use a more sophisticated document-based datastore, such as Microsoft Excel or Google Docs. The intermediate solution we have found is the YAML markup language format. YAML works in the following general structure:
 
 {
-    
+    aMovieOrVideoGameOrTvShow
+        titles: 
+            - A Movie or Video Game or TV Show
+            - Another Title for This Thing
+        release_date: 2008-07-21 # you can use comments at the end of lines or on their own line with the hashsymbol
 }
