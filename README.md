@@ -61,3 +61,6 @@ Some specific notes for contributors about each type of media:
 - initialReleaseFormat should be "theatrical," "streaming," or "home video". (I don't expect, given that we're looking for *major* titles, that we will be including many "home video" releases, especially since "streaming" essentially replaces home video for anything contemporary, such as Disney's 2020 *Mulan*.)
 - Again, it's not important at this stage to list all of the actors or to know the distributor, etc. - as with all of these categories, we really want to make sure we have all of the *names* and *release dates*.
 
+**Games**
+ - mostly follow the same format, with the caveat that "major creatives" are listed since directors are not present on every game
+

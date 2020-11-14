@@ -27,6 +27,8 @@
   boxOfficeGrossUS: # we won't know all the values and that's okay!
   boxOfficeGrossInternational: 
   initialReleaseFormat: theatrical
+  ratings: # include the MPAA content rating
+    - PG-13 (MPAA)
 
 -girlWithDragonTattoo2009 # this film is originally titled in Swedish, and we include that in the text field, but we don't want to risk using special characters in the identifier field; you can probably include the Romanizaed Japanese title for a Japanese title, but where in doubt, use a title for the identifier that doesn't use any non-standard characters
   titles: 
@@ -46,3 +48,5 @@
   boxOfficeGrossUS:
   boxOfficeGrossInternational:
   initialReleaseFormat: theatrical # the film was not released in the US, but if it was initially in theaters (except maybe film festivals), default to theatrical
+  ratings: # you can add other rating authorities besides the US if you know them
+    - R (MPAA)
