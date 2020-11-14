@@ -1,0 +1,42 @@
+---
+# template film record
+# leave comments with a # where needed; they won't interfere with parsing this data into other formats/programs
+shows: 
+  - gameOfThrones: # include 
+      titles:
+        - Game of Thrones 
+      first-episode-date: 2011-04-17
+      final-episode-date: 2019-05-19 # if the show is ongoing, leave this blank, even if the final episode is scheduled
+      networks: # some shows aired on multiple networks; include networks to which a show moved while airing, but do not include networks which aired the show as reruns or picked it up for streaming without contributing to its production
+        - HBO
+      showrunners: 
+        - David Benioff
+        - Dan Weiss
+      actors: # list whoever you can remember
+        - Lena Headey
+        - Sean Bean 
+      initialReleaseFormat: premium cable # list cable, premium cable, streaming, or broadcast
+      genres:
+        - fantasy
+        - thriller
+        - drama
+      ratings:
+        - TV-MA (US)
+
+  - stevenUniverse:
+      titles:
+        - Steven Universe 
+      first-episode-date: 2013-05-21
+      final-episode-date: 2019-01-21 # if a show has spinoffs, as Steven Universe did, you can include them - individual TV movies are fine to include, but they should be indexed separately
+      networks:
+        - Cartoon Network 
+      showrunners:
+        - Rebecca Sugar
+      actors:
+        - ~
+      initialReleaseFormat: cable
+      genres: # always include animation as a genre for animated shows; no need to distinguish anime and other forms of animation
+        - animation
+        - science fiction
+      ratings:
+        - TV-Y7 (US)

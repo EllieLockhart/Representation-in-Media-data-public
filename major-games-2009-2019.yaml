@@ -1,50 +1,61 @@
+---
 # template video game record
 # leave comments with a # where needed; they won't interfere with parsing this data into other formats/programs
-- pokemonBlack
-  titles: 
-    - Pokemon Black 
-  releaseDate: 2010-09-18 # this is the Japanese release date; using the first date it was released for is appropriate.
-  publishers:
-    - Nintendo
-    - The Pokemon Company
-  developers:
-    - Game Freak
-  platforms:
-    - Nintendo DS 
-  genres:
-    - role-playing
-    - pets
-    - open world
-    - fantasy
-    - science fiction 
-    - children and young adults # we may have to rename or combine some genre titles, but this can be done at the database import stage
-  actors:
-  leadCreativesOfNote: # this is basically "director" and actually *is* the title in some cases
-    - Matsuda Junichi
-    - Morimoto Shigeki
-  profits: # this is usually not known but it's worth including where we do know it
-  ratings: # we'll include the US content protection rating at least; include other countries if you know
-    - E (ESRB)
+games:
+  - pokemonBlack:
+      titles: 
+        - Pokemon Black 
+      releaseDate: 2010-09-18 # this is the Japanese release date; using the first date it was released for is appropriate.
+      publishers:
+        - Nintendo
+        - The Pokemon Company
+      developers:
+        - Game Freak
+      platforms:
+        - Nintendo DS 
+      genres:
+        - role-playing
+        - pets
+        - open world
+        - fantasy
+        - science fiction 
+        - children and young adults # we may have to rename or combine some genre titles, but this can be done at the database import stage
+      actors:
+        - ~
+      leadCreativesOfNote: # this is basically "director" and actually *is* the title in some cases
+        - Matsuda Junichi
+        - Morimoto Shigeki
+      profits: ~ # this is usually not known but it's worth including where we do know it
+      ratings: # we'll include the US content protection rating at least; include other countries if you know
+        - E (ESRB)
 
-- beforeTheStorm
-  titles:
-    - Life is Strange \:Before the Storm
-  releaseDate: 2017-08-31 # for episodic games, for now we'll collect the release date of the first episode
-  publishers:
-    - Square Enix
-    - Feral Interactive
-  developers:
-    - Deck Nine
-  platforms:
-    - Windows
-    - Playstation 4
-    - XBox One 
-    - OS X
-    - Linux 
-    - Android
-    - iOS 
-  actors: # this would be a list if the example included notable actors, or if anyone knows and can fill in these examples
-  leadCreativesOfNote: 
-  profits:
-  ratings:
-    - M (ESRB)
+  - beforeTheStorm:
+      titles:
+        - Life is Strange \:Before the Storm
+      releaseDate: 2017-08-31 # for episodic games, for now we'll collect the release date of the first episode
+      publishers:
+        - Square Enix
+        - Feral Interactive
+      developers:
+        - Deck Nine
+      platforms:
+        - Windows
+        - Playstation 4
+        - XBox One 
+        - OS X
+        - Linux 
+        - Android
+        - iOS 
+      genres: 
+        - adventure
+        - visual novel
+        - interactive movie
+        - thriller
+        - school
+      actors:
+        - ~ # this would be a list if the example included notable actors, or if anyone knows and can fill in these examples
+      leadCreativesOfNote: 
+        - ~
+      profits: ~
+      ratings:
+        - M (ESRB)

@@ -46,6 +46,7 @@ One policy: even if you have to leave it blank, please include all the fields we
 Some specific notes for contributors about each type of media:
 
 **General**
+
 - most fields are treated as lists, even if there is only one. Title is the one where this probably seems weirdest; however, there are media that have been *completely* renamed or who have original non-English titles
   - If there's just one title, just put titles:, a carriage return, and an indented "- the correct title." 
   - You don't need to worry about if the title was, say, released both with and without a colon; but if it was released under two totally different titles (for instance, *The Edge of Tomorrow*/*Live/Die/Repeat*), then include those titles on separate indented lines
@@ -54,13 +55,20 @@ Some specific notes for contributors about each type of media:
   - However, every entry for a media item in YAML has to have a no-spaces identifier that has to be unique.
     - We won't be including the 1969 John Wayne film *True Grit* in this data set, since it's from 1969 and we stop 30 years later than that. However, I would still suggest marking the 2010 remake by the Coens with the year in this identifier, just in case we do in the future decide to include older titles.
     - We use camelCase for identifiers, so the unique identifier for the 2010 True Grit would be trueGrit2010.
+- leaving fields blank is fine, BUT you need to put NULL or ~. If it's part of a list, make a list item and just make it ~ or NULL.
 
 
 **Film**
+
 - We only track the original release date, so that's a single date field. The box office grosses are also single items, as is initial release format (only applies for movies).
 - initialReleaseFormat should be "theatrical," "streaming," or "home video". (I don't expect, given that we're looking for *major* titles, that we will be including many "home video" releases, especially since "streaming" essentially replaces home video for anything contemporary, such as Disney's 2020 *Mulan*.)
 - Again, it's not important at this stage to list all of the actors or to know the distributor, etc. - as with all of these categories, we really want to make sure we have all of the *names* and *release dates*.
 
 **Games**
- - mostly follow the same format, with the caveat that "major creatives" are listed since directors are not present on every game
 
+ - mostly follow the same format, with the caveat that "major creatives" are listed since directors are not present on every game.
+
+**Television**
+
+- Include a TV show in the decade where its most recent episode aired; this means that *Buffy the Vampire Slayer* is included in the 1999-2009 documents, even though it began in 1997;  *Breaking Bad* would be in the 2009-2019 document even though it started in 2008, and *The Mandalorian* is included in the 2020-present dataset although its first episodes were streamed in 2019.
+- If a show ended but had spinoffs, include them as their own entries. TV movies, such as *El Camino: A Breaking Bad Story* would be fine to include - just list the release/air date for the first and final episodes as the same.
