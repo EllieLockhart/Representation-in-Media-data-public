@@ -14,6 +14,13 @@
  
  At this time, the Representation in Media Project's data goals are at the first phase.
 
+ ## A Note on Project Rationale
+ This is not a purely activist project. There are three primary, and key, reasons why gathering the data here is important:
+
+ 1. Providing a basis for academic, personal,and other research into mass media that does not risk creating projects or derived data which potentially violate the law;
+ 2. Facilitating the development of a specific app which *is* aimed at the activist goal of helping LGBT+ people understand where we are and are not represented in mass media;
+ 3. Finally, there is a strong commercial rationale for having a list of mass media for study and data analysis. Many businesses can benefit from, to begin with, simply having a reasonably comprehensive list of all media in a given medium, and, if their work involves, among other things, content production, a basis for a deeper study of the business impacts of creating inclusive media.
+
  ### Phases of Data Creation
  1. Using the CSV format (which is editable in any common spreadsheet editors, many IDEs, and any text editor), we will assemble a list of as many of the television, video games, and movies that released between January 1, 1999 and today. At least for the time being, new releases will be added on a rolling basis, although this may later be supplanted by a different data insertion method. Again, **the purpose of this data collection is not yet to determine anything about diversity and inclusion**. We want to include everything, from *SimCity* and Pixar's *Up* to *Queer as Folk* and *The Last of Us Part II*.
  2. We will expand the information contained in these files to include basic information related to diversity and inclusion, based on measures to be established by the team.
