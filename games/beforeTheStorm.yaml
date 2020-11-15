@@ -1,0 +1,30 @@
+- beforeTheStorm:
+    titles:
+      - Life is Strange \:Before the Storm
+    releaseDate: 2017-08-31 # for episodic games, for now we'll collect the release date of the first episode
+    publishers:
+      - Square Enix
+      - Feral Interactive
+    developers:
+      - Deck Nine
+    platforms:
+      - Windows
+      - Playstation 4
+      - XBox One 
+      - OS X
+      - Linux 
+      - Android
+      - iOS 
+    genres: 
+      - adventure
+      - visual novel
+      - interactive movie
+      - thriller
+      - school
+    actors:
+      - ~ # this would be a list if the example included notable actors, or if anyone knows and can fill in these examples
+    leadCreativesOfNote: 
+      - ~
+    profits: ~
+    ratings:
+      - M (ESRB)

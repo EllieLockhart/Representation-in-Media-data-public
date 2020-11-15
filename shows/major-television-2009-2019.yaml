@@ -1,0 +1,17 @@
+- stevenUniverse:
+    titles:
+      - Steven Universe 
+    first-episode-date: 2013-05-21
+    final-episode-date: 2019-01-21 # if a show has spinoffs, as Steven Universe did, you can include them - individual TV movies are fine to include, but they should be indexed separately
+    networks:
+      - Cartoon Network 
+    showrunners:
+      - Rebecca Sugar
+    actors:
+      - ~
+    initialReleaseFormat: cable
+    genres: # always include animation as a genre for animated shows; no need to distinguish anime and other forms of animation
+      - animation
+      - science fiction
+    ratings:
+      - TV-Y7 (US)

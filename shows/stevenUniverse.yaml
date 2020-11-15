@@ -1,0 +1,20 @@
+- gameOfThrones: # include 
+      titles:
+        - Game of Thrones 
+      first-episode-date: 2011-04-17
+      final-episode-date: 2019-05-19 # if the show is ongoing, leave this blank, even if the final episode is scheduled
+      networks: # some shows aired on multiple networks; include networks to which a show moved while airing, but do not include networks which aired the show as reruns or picked it up for streaming without contributing to its production
+        - HBO
+      showrunners: 
+        - David Benioff
+        - Dan Weiss
+      actors: # list whoever you can remember
+        - Lena Headey
+        - Sean Bean 
+      initialReleaseFormat: premium cable # list cable, premium cable, streaming, or broadcast
+      genres:
+        - fantasy
+        - thriller
+        - drama
+      ratings:
+        - TV-MA (US)

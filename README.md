@@ -32,14 +32,16 @@
 In an ideal world where we weren't dependent on git and on reviewing each other's commits, we would directly input all of this data into a graph/document database, or at least use a more sophisticated document-based datastore, such as Microsoft Excel or Google Docs. The intermediate solution we have found is the YAML markup language format. YAML works in the following general structure:
 
 {
-    aMovieOrVideoGameOrTvShow
+    - movieOrVideoGameOrTvShow
         titles: 
             - A Movie or Video Game or TV Show
             - Another Title for This Thing
         release_date: 2008-07-21 # you can use comments at the end of lines or on their own line with the hash symbol
 }
 
-Each type of media has its own specific format; you should review the files and follow the example of the first item. If you aren't sure how to handle something, just add the item and note in a comment that it's ambiguous. 
+Each type of media has its own specific format; you should review the files and follow the example closest to the type of media (movie, television show, or video game) that your are contributing.. If you aren't sure how to handle something, just add the item and note in a comment that it's ambiguous. 
+
+**Each media is one YAML file in the folder of its medium.** For instance "/shows/legendOfKorra.yaml" - give the media the same camelCase title (fightClub, lastOfUsLeftBehind) that you use for the item in the first line of the YAML file itself - this is the *unique identifier*. If it's a very long title, use your own judgment to reduce it to a size you can work with. Also, when creating a unique identifier, please omit articles (a, the, etc.) if they are the first word of the time. Combining these examples: *Star Wars: Episode VIII: The Last Jedi* should probably be indexed simply as "lastJedi.yaml".
 
 One policy: even if you have to leave it blank, please include all the fields we are currently collecting even if you don't know all of it. For instance, if you don't know the director or all of the actors, just put the field and leave it blank or include what you can; if it's incomplete and you know that, please do note that with a # comment. If your syntax is problematic, that's fine; as long as it generally resembles the structure, the project adminsitrator will clean it up so that it can be parsed.
 
