@@ -1,0 +1,25 @@
+- hanna: 
+    titles: 
+      - Hanna
+    releaseDate: 2011-04-08
+    directors:
+      - Joe Wright
+    genres:
+      - action
+      - thriller
+      - espionage
+      - survival
+      - adventure
+      - science fiction
+    actors:
+      - Saiorse Ronan
+      - Eric Bana
+    distributors: 
+      - Universal
+    studios: 
+      - Focus
+    boxOfficeGrossUS: ~
+    boxOfficeGrossInternational: 65,300,000
+    initialReleaseFormat: theatrical
+    ratings: 
+      - PG-13 (MPAA)
