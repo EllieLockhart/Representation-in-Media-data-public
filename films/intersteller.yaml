@@ -1,0 +1,28 @@
+- interstellar: 
+    titles: 
+      - Interstellar
+    releaseDate: 2014-10-26
+    directors:
+      - Christopher Nolan
+    genres:
+      - science fiction
+      - adventure
+      - survival
+    actors:
+      - Matthew McConaughey
+      - Anne Hathaway
+      - Jessica Chastain
+      - Michael Caine
+    distributors: 
+      - Paramount
+    studios: 
+      - Paramount
+      - Warner Bros.
+      - Legendary Pictures
+      - Syncopy
+      - Lynda Obst Productions
+    boxOfficeGrossUS: ~
+    boxOfficeGrossInternational: 696,300,000
+    initialReleaseFormat: theatrical
+    ratings: 
+      - PG-13 (MPAA)
