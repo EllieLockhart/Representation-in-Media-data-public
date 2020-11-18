@@ -1,0 +1,31 @@
+- theLastJedi: 
+    titles: 
+      - Star Wars Episode VIII - The Last Jedi
+    releaseDate: 2017-12-15
+    directors:
+      - Rian Johnson
+    genres:
+      - science fiction
+      - action
+    actors:
+      - Carrie Fisher
+      - Mark Hamill
+      - Daisy Ridley
+      - Andy Serkis
+      - Laura Dern
+      - Gwendoline Christy
+      - Domnhall Gleeson
+      - Lupita Nyong'o
+      - Kelly Marie Tran
+      - Oscar Isaac
+      - John Boyega
+      - Frank Oz
+    distributors: 
+      - Disney
+    studios: 
+      - Lucasfilm
+    boxOfficeGrossUS: 620,000,000
+    boxOfficeGrossInternational: 1,332,539,889 # use plain number values - if not USD, convert using current exchange rates and add a note
+    initialReleaseFormat: theatrical
+    ratings: 
+      - PG-13 (MPAA)
