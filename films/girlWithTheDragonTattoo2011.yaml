@@ -1,0 +1,26 @@
+- girlWithDragonTattoo2011: 
+    titles: 
+      - The Girl with the Dragon Tattoo 
+    releaseDate: 2011-12-20
+    directors:
+      - David Fincher
+    genres:
+      - thriller
+      - neo-noir
+      - crime
+    actors:
+      - Rooney Mara
+      - Daniel Craig
+      - Christopher Plummer
+    distributors: 
+      - Columbia Pictures
+      - MGM
+      - 20th Century Studios
+      - Sony
+    studios: 
+      - ~
+    boxOfficeGrossUS: ~
+    boxOfficeGrossInternational: 232,600,000 # use plain number values - if not USD, convert using current exchange rates and add a note
+    initialReleaseFormat: theatrical
+    ratings: 
+      - R (MPAA)
