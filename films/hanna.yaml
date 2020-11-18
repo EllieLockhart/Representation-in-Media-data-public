@@ -1,5 +1,5 @@
 - hanna: 
-    titles: 
+    titles:
       - Hanna
     releaseDate: 2011-04-08
     directors:
@@ -14,12 +14,12 @@
     actors:
       - Saiorse Ronan
       - Eric Bana
-    distributors: 
+    distributors:
       - Universal
-    studios: 
+    studios:
       - Focus
     boxOfficeGrossUS: ~
     boxOfficeGrossInternational: 65,300,000
     initialReleaseFormat: theatrical
-    ratings: 
+    ratings:
       - PG-13 (MPAA)

@@ -13,9 +13,9 @@
       - Anne Hathaway
       - Jessica Chastain
       - Michael Caine
-    distributors: 
+    distributors:
       - Paramount
-    studios: 
+    studios:
       - Paramount
       - Warner Bros.
       - Legendary Pictures
@@ -24,5 +24,5 @@
     boxOfficeGrossUS: ~
     boxOfficeGrossInternational: 696,300,000
     initialReleaseFormat: theatrical
-    ratings: 
+    ratings:
       - PG-13 (MPAA)
