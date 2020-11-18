@@ -1,0 +1,24 @@
+- machete: 
+    titles: 
+      - Machete
+    releaseDate: 2010-09-03
+    directors:
+      - Robert Rodriguez
+      - Ethan Maniquis
+    genres:
+      - action
+      - comedy
+    actors:
+      - Danny Trejo
+      - Michelle Rodriguez
+    distributors: 
+      - 20th Century Fox
+    studios: 
+      - Overnight Films
+      - Troublemaker Studios
+      - Hyde Park Entertainment
+    boxOfficeGrossUS: ~
+    boxOfficeGrossInternational: 44,000,000
+    initialReleaseFormat: theatrical
+    ratings: 
+      - R (MPAA)
